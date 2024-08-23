@@ -17,7 +17,7 @@ export const TodoContext = createContext({
 
 })
 
-const TodoProvider = TodoContext.Provider
+export const TodoProvider = TodoContext.Provider
 
 export const useTodo = ()=>{
     return useContext(TodoContext)
